@@ -1,0 +1,19 @@
+body{
+    background-image: url(background.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat ; 
+    background-position: center ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: center ;
+    position: center;
+    text-shadow: 2px 1px 5px;
+}
+p{
+    text-align: center;
+}
+picture{
+    margin-inline: center ; 
+}

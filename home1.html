@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Tracking</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="-icon-png.webp">
+</head>
+    
+<body>
+    <nav id="desktop-nav">
+        <div>
+            <img src="-icon-png.webp" alt="*" class="minilogo"><h class="logo">Asset Tracking</h>
+        </div>
+        
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Asset Tracking</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#resources" onclick="toggleMenu()">Resources</a></li>
+                    <li><a href="#demo" onclick="toggleMenu()"></a>Demo</li>
+                    <li><a href="#contact" onclick="toggleMenu()"></a>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="center">
+        <div class="section__pic-container">
+            <img src="image.png" alt="Asset Tracking" class="pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">ASSET MANAGEMENT PLATFORM</p>
+            <h1 class="title">Get your assets under control</h1>
+            <p class="section__text__p2">Never lose track of an item again with our asset management and tracking platform that adapts to the way you work.</p>
+            <div class="btn-container">
+                <button
+                    class="btn btn-color-2"
+                    onclick="window.open()"
+                >
+                Login
+                </button>
+                <button
+                    class="btn btn-color-1"
+                    onclick="location.href='./#demo'">
+                    Get a Demo
+                  </button>
+                </div>
+                </div>
+                ></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
